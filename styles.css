@@ -273,6 +273,7 @@ li input[type="radio"] {
 .gif {
   width: 260px;
   height: 70px;
+  opacity: 0.85;
 }
 
 .right-panel{
