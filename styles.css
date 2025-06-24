@@ -1,5 +1,10 @@
 
 body {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
+  border-radius: 4px;
   padding: 8px;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -8,6 +13,10 @@ body {
 }
 
 header {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   padding: 10px;
   border-radius: 40px;
   margin-bottom: 5px;
@@ -41,6 +50,10 @@ p {
 }
 
 select {
+  border-left: 3px solid #01402E;
+  border-top: 3px solid #01402E;
+  border-right: 3px solid #ffc400;
+  border-bottom: 3px solid #ffc400;
   width: 210px;
   height: 29px;
   border-radius: 30px;
@@ -103,6 +116,10 @@ label {
 }
 
 .info-horse {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   width: 400px;
   border-radius: 40px;
   margin-bottom: 10px;
@@ -113,6 +130,10 @@ label {
 }
 
 .quiz-box {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   width: 400px;
   border-radius: 40px;
   margin-left: 10px;
@@ -121,6 +142,10 @@ label {
 }
 
 .track-view {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   width: 700px;
   height: 300px;
   border-radius: 40px;
@@ -131,6 +156,10 @@ label {
 }
 
 .info-track {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   width: 700px;
   height: 300px;
   border-radius: 40px;
@@ -168,26 +197,39 @@ label {
 }
 
 .second {
+  border-left: 2px solid #01402E;
+  border-top: 2px solid #01402E;
+  border-right: 2px solid #ffc400;
+  border-bottom: 2px solid #ffc400;
   height: 34px;
   margin-left: 220px;
   color: white;
-  border-color: #a49898;
-  background-color: #decfcf;
+  background-color: #bfb2b2;
 }
 .first {
+  border-left: 2px solid #01402E;
+  border-top: 2px solid #01402E;
+  border-right: 2px solid #ffc400;
+  border-bottom: 2px solid #ffc400;
   height: 48px;
   color: white;
-  border-color: #cdae00;
   background-color: #FFD700;
 }
 .third {
+  border-left: 2px solid #01402E;
+  border-top: 2px solid #01402E;
+  border-right: 2px solid #ffc400;
+  border-bottom: 2px solid #ffc400;
   height: 27px;
   color: white;
-  border-color: #945c25;
   background-color: #cd7f32;
 }
 
 .horse-info {
+  border-left: 4px solid #01402E;
+  border-top: 4px solid #01402E;
+  border-right: 4px solid #ffc400;
+  border-bottom: 4px solid #ffc400;
   width: 300;
   padding: 10px;
   margin-bottom: 10px;
