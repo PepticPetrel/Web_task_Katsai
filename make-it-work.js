@@ -6,16 +6,17 @@ const registerBtn = document.querySelector(".register");
 let horseData = {}
 
 registerBtn.onclick = function (event) {
-
   const password = passwordInput.value.trim();
 
   if (password === "") {
     alert("Поле паролю не може бути порожнім.");
+    event.preventDefault();
     return;
   }
 
   if (password.length < 6) {
     alert("Пароль повинен містити щонайменше 6 символів.");
+    event.preventDefault();
     return;
   }
 
@@ -78,3 +79,17 @@ fetch('track-date.json')
   document.getElementById("horse-jockey").textContent = horse.info.jockey || "—";
   document.getElementById("horse-owner").textContent = horse.info.owner || "—";
 }
+
+function loadData() {
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("data-box").textContent = "Нові дані: " + data.value;
+    })
+    .catch(error => {
+      console.error("Помилка при завантаженні:", error);
+    });
+}
+
+loadData();
+setInterval(loadData, 1000000);
